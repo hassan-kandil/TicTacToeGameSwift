@@ -14,6 +14,10 @@
 		8AE9B2EC23D87749008B5C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE9B2EA23D87749008B5C91 /* LaunchScreen.storyboard */; };
 		8AE9B2F723D87749008B5C91 /* TicTacToeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9B2F623D87749008B5C91 /* TicTacToeGameTests.swift */; };
 		8AE9B30223D87749008B5C91 /* TicTacToeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9B30123D87749008B5C91 /* TicTacToeGameUITests.swift */; };
+		8AE9B31023D87FD0008B5C91 /* Screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9B30F23D87FD0008B5C91 /* Screen2ViewController.swift */; };
+		8AE9B34B23D88D12008B5C91 /* tic-tac-toe-game-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE9B34A23D88D12008B5C91 /* tic-tac-toe-game-icon.png */; };
+		8AE9B34F23D8908E008B5C91 /* tictactoe-name-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE9B34E23D8908E008B5C91 /* tictactoe-name-logo.png */; };
+		8AE9B35523D8CD49008B5C91 /* gameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9B35423D8CD49008B5C91 /* gameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,62 @@
 			remoteGlobalIDString = 8AE9B2DD23D87749008B5C91;
 			remoteInfo = TicTacToeGame;
 		};
+		8AE9B33923D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C9043771AABBFC5001B4E60;
+			remoteInfo = "AlamofireImage iOS";
+		};
+		8AE9B33B23D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C9043821AABBFC5001B4E60;
+			remoteInfo = "AlamofireImage iOS Tests";
+		};
+		8AE9B33D23D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CE611321AABC24E00D35044;
+			remoteInfo = "AlamofireImage macOS";
+		};
+		8AE9B33F23D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CE611471AABC5C900D35044;
+			remoteInfo = "AlamofireImage macOS Tests";
+		};
+		8AE9B34123D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C16B37D1BA9399500A66EF0;
+			remoteInfo = "AlamofireImage tvOS";
+		};
+		8AE9B34323D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C16B3861BA9399500A66EF0;
+			remoteInfo = "AlamofireImage tvOS Tests";
+		};
+		8AE9B34523D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C4D4EC11B92976900C96855;
+			remoteInfo = "AlamofireImage watchOS";
+		};
+		8AE9B34723D88B89008B5C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C11830B2150517E007A8298;
+			remoteInfo = "iOS Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +107,11 @@
 		8AE9B2FD23D87749008B5C91 /* TicTacToeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE9B30123D87749008B5C91 /* TicTacToeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGameUITests.swift; sourceTree = "<group>"; };
 		8AE9B30323D87749008B5C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE9B30F23D87FD0008B5C91 /* Screen2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen2ViewController.swift; sourceTree = "<group>"; };
+		8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlamofireImage.xcodeproj; path = AlamofireImage/AlamofireImage.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8AE9B34A23D88D12008B5C91 /* tic-tac-toe-game-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tic-tac-toe-game-icon.png"; sourceTree = "<group>"; };
+		8AE9B34E23D8908E008B5C91 /* tictactoe-name-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tictactoe-name-logo.png"; sourceTree = "<group>"; };
+		8AE9B35423D8CD49008B5C91 /* gameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +162,18 @@
 		8AE9B2E023D87749008B5C91 /* TicTacToeGame */ = {
 			isa = PBXGroup;
 			children = (
+				8AE9B35023D8CCF6008B5C91 /* Model */,
+				8AE9B34E23D8908E008B5C91 /* tictactoe-name-logo.png */,
+				8AE9B35423D8CD49008B5C91 /* gameModel.swift */,
 				8AE9B2E123D87749008B5C91 /* AppDelegate.swift */,
 				8AE9B2E323D87749008B5C91 /* ViewController.swift */,
 				8AE9B2E523D87749008B5C91 /* Main.storyboard */,
+				8AE9B30F23D87FD0008B5C91 /* Screen2ViewController.swift */,
 				8AE9B2E823D87749008B5C91 /* Assets.xcassets */,
+				8AE9B34A23D88D12008B5C91 /* tic-tac-toe-game-icon.png */,
 				8AE9B2EA23D87749008B5C91 /* LaunchScreen.storyboard */,
 				8AE9B2ED23D87749008B5C91 /* Info.plist */,
+				8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */,
 			);
 			path = TicTacToeGame;
 			sourceTree = "<group>";
@@ -123,6 +194,28 @@
 				8AE9B30323D87749008B5C91 /* Info.plist */,
 			);
 			path = TicTacToeGameUITests;
+			sourceTree = "<group>";
+		};
+		8AE9B32E23D88B89008B5C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE9B33A23D88B89008B5C91 /* AlamofireImage.framework */,
+				8AE9B33C23D88B89008B5C91 /* AlamofireImage iOS Tests.xctest */,
+				8AE9B33E23D88B89008B5C91 /* AlamofireImage.framework */,
+				8AE9B34023D88B89008B5C91 /* AlamofireImage macOS Tests.xctest */,
+				8AE9B34223D88B89008B5C91 /* AlamofireImage.framework */,
+				8AE9B34423D88B89008B5C91 /* AlamofireImage tvOS Tests.xctest */,
+				8AE9B34623D88B89008B5C91 /* AlamofireImage.framework */,
+				8AE9B34823D88B89008B5C91 /* iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE9B35023D8CCF6008B5C91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +286,7 @@
 				TargetAttributes = {
 					8AE9B2DD23D87749008B5C91 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8FT7L54C8X;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					8AE9B2F123D87749008B5C91 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -221,6 +313,12 @@
 			mainGroup = 8AE9B2D523D87749008B5C91;
 			productRefGroup = 8AE9B2DF23D87749008B5C91 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8AE9B32E23D88B89008B5C91 /* Products */;
+					ProjectRef = 8AE9B32D23D88B89008B5C91 /* AlamofireImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8AE9B2DD23D87749008B5C91 /* TicTacToeGame */,
@@ -230,6 +328,65 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8AE9B33A23D88B89008B5C91 /* AlamofireImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireImage.framework;
+			remoteRef = 8AE9B33923D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B33C23D88B89008B5C91 /* AlamofireImage iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AlamofireImage iOS Tests.xctest";
+			remoteRef = 8AE9B33B23D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B33E23D88B89008B5C91 /* AlamofireImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireImage.framework;
+			remoteRef = 8AE9B33D23D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B34023D88B89008B5C91 /* AlamofireImage macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AlamofireImage macOS Tests.xctest";
+			remoteRef = 8AE9B33F23D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B34223D88B89008B5C91 /* AlamofireImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireImage.framework;
+			remoteRef = 8AE9B34123D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B34423D88B89008B5C91 /* AlamofireImage tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AlamofireImage tvOS Tests.xctest";
+			remoteRef = 8AE9B34323D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B34623D88B89008B5C91 /* AlamofireImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireImage.framework;
+			remoteRef = 8AE9B34523D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AE9B34823D88B89008B5C91 /* iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Example.app";
+			remoteRef = 8AE9B34723D88B89008B5C91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8AE9B2DC23D87749008B5C91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -238,6 +395,8 @@
 				8AE9B2EC23D87749008B5C91 /* LaunchScreen.storyboard in Resources */,
 				8AE9B2E923D87749008B5C91 /* Assets.xcassets in Resources */,
 				8AE9B2E723D87749008B5C91 /* Main.storyboard in Resources */,
+				8AE9B34F23D8908E008B5C91 /* tictactoe-name-logo.png in Resources */,
+				8AE9B34B23D88D12008B5C91 /* tic-tac-toe-game-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +422,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE9B2E423D87749008B5C91 /* ViewController.swift in Sources */,
+				8AE9B35523D8CD49008B5C91 /* gameModel.swift in Sources */,
 				8AE9B2E223D87749008B5C91 /* AppDelegate.swift in Sources */,
+				8AE9B31023D87FD0008B5C91 /* Screen2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +578,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FT7L54C8X;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TicTacToeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.TicTacToeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +592,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FT7L54C8X;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TicTacToeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.aucegypt.TicTacToeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
